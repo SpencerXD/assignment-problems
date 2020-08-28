@@ -10,4 +10,4 @@ def convert_to_base_10(binary):
     return decimal
 print(">>> convert_to_base_10(10011)")
 assert convert_to_base_10(10011) == 19, "Test Failed"
-print("PASSED")    
+print("PASSED")

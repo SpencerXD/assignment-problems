@@ -12,7 +12,7 @@ assert make_nested({
   'animal_fox': ['orange', 'white'],
   'food_apple': ['red', 'green', 'yellow'],
   'food_cheese': ['white', 'orange']
-  })== {
+ }) == {
   'animal': {
     'bumblebee': ['yellow', 'black'],
     'elephant': ['gray'],

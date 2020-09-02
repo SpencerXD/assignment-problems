@@ -18,6 +18,7 @@ flatten_colors = {
   'food_cheese': ['white', 'orange']
 }
 
+
 def flatten(dict_colors):
     final_dict = {}
     for key_colors in dict_colors:

@@ -3,10 +3,10 @@ class Queue():
 
     def enqueue(self, string):
         self.data.append(string)
-    
+
     def dequeue(self):
         self.data.pop(0)
-    
+
     def peek(self):
         return self.data[0]
 q = Queue()

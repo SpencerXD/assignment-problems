@@ -12,6 +12,7 @@ print('>>> update_bounds([1, 1.5])')
 assert update_bounds([1, 1.5]) == [1.25, 1.5], 'Test Failed'
 print('PASSED')
 
+
 def estimate_root(precision):
     new_bounds = update_bounds([1, 2])
     while new_bounds[1] - new_bounds[0] > 0.1:

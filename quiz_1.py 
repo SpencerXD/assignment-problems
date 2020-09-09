@@ -1,0 +1,2 @@
+def nth_term(n):
+    if nth_term(n) == 0:

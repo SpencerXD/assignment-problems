@@ -19,8 +19,11 @@ def swap_sort(x):
         for num in range(len(x)-1):
             if x[num+1] < x[num]:
                 x[num+1], x[num] = x[num], x[num+1]
+        print(x)
     return x
 
 print('>>> swap_sort([5,8,2,2,4,3,0,2,-5,3.14,2])')
 assert swap_sort([5,8,2,2,4,3,0,2,-5,3.14,2]) == [-5,0,2,2,2,2,3,3.14,4,5,8], 'Test Failed'
 print('PASSED')
+
+print(swap_sort([3,4,5,1,2]))

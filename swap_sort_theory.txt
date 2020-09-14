@@ -1,0 +1,14 @@
+1.
+    a) The least amount of swaps that could occur in a 5 element list would be zero swaps. The same with a list of n elements. ex: swap_sort([1,2,3,4,5]) = [1,2,3,4,5] 
+
+    b) The mosts amount of swaps possible that could occur in a 5 element list would be 14 swaps. In a list of n elements, the most amount of swaps would be 
+    n + (n-1) + (n-2) + ... + () swaps. 
+    ex: swap_sort([5,4,3,2,1]) =  1. [4,3,2,1,5] = 5 swaps
+                                  2. [3,2,1,4,5] = 4 swaps
+                                  3. [2,1,3,4,5] = 3 swaps
+                                  4. [1,2,3,4,5] = 2 swaps
+                                                   14 swaps
+    c)true because as shown in part b as swap sort continues, the number of swaps per pass decreases 
+
+    d)true, the  number of swaps will always decrease because swap_sort always puts at least one element in its correct position. 
+    
